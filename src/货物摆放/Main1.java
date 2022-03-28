@@ -46,15 +46,17 @@ public class Main1 {
                 for ( long i = 1 ; i <= Math.sqrt(num) ; i++ ){
 
                     if ( num % i == 0 ){
-                        arr.add(i);     //如果能被整除，就放到arr数组中
-
+                        //如果能被整除，就放到arr数组中
+                        arr.add(i);
                         //！！！重点在这里，当i能被num整除的情况下，求出num关于i的另外一个除数n
                         //这样，for循环不需要从1遍历到num。可以通过较小的因子，求出另外一个较大的因子
                         long n = num / i;
-
                         //如果num = Math.sqrt(num)*Math.sqrt(num),那么由较小的因子求较大的因子时，会重复，要排除这种情况
-                        if ( n != i ){      //当然，此时num，不会出现这种情况。如果num=4，就会出现这种情况
-                            arr.add(n);     //将较大的因子放入arr数组
+                        //当然，此时num，不会出现这种情况。如果num=4，就会出现这种情况
+                        if ( n != i ){
+                            //将较大的因子放入arr数组
+                            arr.add(n);
+
                         }
 
                     }
