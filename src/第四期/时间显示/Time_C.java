@@ -1,6 +1,5 @@
-package 时间显示;
+package 第四期.时间显示;
 
-import java.text.Format;
 import java.util.Scanner;
 
 /**

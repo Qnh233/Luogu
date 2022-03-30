@@ -1,6 +1,5 @@
-package 货物摆放;
+package 第四期.货物摆放;
 
-import java.util.Scanner;
 import java.util.ArrayList;
 /**
  * @author Xhao

@@ -1,8 +1,7 @@
-package 明码;
+package 第四期.明码;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * @auther: 必燃

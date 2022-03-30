@@ -1,6 +1,4 @@
-package 路径;
-
-import java.util.Arrays;
+package 第四期.路径;
 
 /**
  * @author 必燃

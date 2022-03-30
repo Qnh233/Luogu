@@ -1,4 +1,4 @@
-package 双向排序;
+package 第四期.双向排序;
 
 import java.util.Arrays;
 import java.util.Scanner;

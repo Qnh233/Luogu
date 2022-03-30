@@ -1,4 +1,4 @@
-package 杨辉三角;
+package 第四期.杨辉三角;
 
 import java.util.Scanner;
 

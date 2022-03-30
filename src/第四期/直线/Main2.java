@@ -1,4 +1,4 @@
-package 直线;
+package 第四期.直线;
 import java.util.Scanner;
 import java.util.*;
 // 1:无需package

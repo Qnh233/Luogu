@@ -1,4 +1,4 @@
-package 砝码称重;
+package 第四期.砝码称重;
 
 import java.util.HashSet;
 import java.util.Iterator;
