@@ -14,7 +14,7 @@ public class Mian3 {
 
     static int n=10000;
     static boolean[][] maz=new boolean[n][n];
-
+    //很巧妙的在循环中进行不同的加减
     static int[] r=new int[]{0,1,-1,0};static int[]l=new int[]{1,0,0,-1};
     public static void main(String[] args) {
         Queue<Object> queue = new LinkedList<>();

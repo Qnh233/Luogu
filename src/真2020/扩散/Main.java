@@ -38,10 +38,11 @@ public class Main {
     //dfs算法
     static void f(int x,int y)
     {
-
-        n++;
-        if(n==2020)
+        if(x>=2100+2020||y>=2100+2020)
         {
+            return;
+        }
+        if(x==0||y==0) {
             return;
         }
         flag[x][y]=true;

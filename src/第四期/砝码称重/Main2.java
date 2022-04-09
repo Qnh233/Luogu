@@ -37,7 +37,7 @@ public class Main2 {
 
     }
     /**
-     * 递归标记
+     * 递归标记 dfs 深度优先遍历算法
      */
     static void dfs(int sum,int i)
     {
@@ -46,8 +46,13 @@ public class Main2 {
             if(sum>=0)
             {
                 flag[sum]=1;
+
             }
-            return;
+
+                return;
+
+
+
         }
         //加，减，不变 三个状态
         dfs(sum+a[i],i+1);
